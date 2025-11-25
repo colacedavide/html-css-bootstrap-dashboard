@@ -1,4 +1,12 @@
-[class^='container']{
+/*[class^='container']{
     border: 1px dashed black;
     background-color: rgb(255, 255, 255);
-    min-height: 80vh;}
+    min-height: 10vh;}*/
+    
+    
+
+    [class^='col']{
+    height: 100px;
+    background-color: darksalmon;
+    border: 1px solid cornflowerblue;
+}
