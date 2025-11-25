@@ -1,0 +1,4 @@
+[class^='container']{
+    border: 1px dashed black;
+    background-color: rgb(255, 255, 255);
+    min-height: 80vh;}
