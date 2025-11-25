@@ -5,8 +5,9 @@
     
     
 
-    [class^='col']{
-    height: 100px;
-    background-color: darksalmon;
-    border: 1px solid cornflowerblue;
+   
+.coluno{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
