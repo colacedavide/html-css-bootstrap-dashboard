@@ -64,17 +64,60 @@
         <div class="row nome&cognome">
         <div class="col-6">
             <label for="Nome">Nome autore</label>
-            <input type="text" class="form-control" required placeholder="Inserisci il nome dell'autore">
+            <input type="text" class="form-control" id="nome-autore" required placeholder="Inserisci il nome dell'autore">
         </div>    
         
         <div class="col-6">
             <div class="mb-3">
                 <label for="cognome">Cognome autore</label>
-           <input type="text" class="form-control" required placeholder="Inserisci il cognome dell'autore">
+           <input type="text" class="form-control" required id="cognome-autore" placeholder="Inserisci il cognome dell'autore">
             </div>
         </div>
     </div>
-    <
+    <div class="mb-3">
+        <label for="titolo">Titolo</label>
+        <input type="text" class="form-control" required id="titolo" placeholder="Inserisci il titolo del libro">
+    </div>
+    <div class="row">
+        <div class="col-lg-4 col-sm-12">
+            <div class="mb-5 ">
+              <label for="genere">Genere</label>
+             <select class="form-select" aria-label="Default select example">
+  <option selected>Scegli il genere</option>
+  <option value="1">Biografia</option>
+  <option value="2">Fantasi</option>
+  <option value="3">Giallo</option>
+</select>
+
+</div>
+            </div>
+        </div>
+            <div class="col-lg-4 col-sm-12">
+                <div class="mb-3">
+                    <label for="anno">Anno di publicazione</label>
+                    <input type="number" class="form-control" required id="anno" placeholder="Inserisci l'anno">
+
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <div class="mb-3">
+                        <label for="isbn">ISBN#</label>
+                        <input type="text" class="form-control" id="isbn" required placeholder="Inserisci il codice ISBN#">
+                    </div>
+                </div>
+            </div>
+<hr>
+        <label for="note">Note</label>
+        <div class="form-floating">
+  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+  <label for="floatingTextarea2">Comments</label>
+</div>
+    <div class="form-check p-3">
+  <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+  <label class="form-check-label" for="checkDefault">
+    Disponibile anche in digitale
+  </label>
+</div>
+   <button type="submit" class="btn btn-primary">Aggiungi libro</button>
     </form>
     
 </div>
